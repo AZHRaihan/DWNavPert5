@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; 
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  nav ul li a:hover {
+    color: blue;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .logo img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+  .logo img {
+    height: 56px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+  }
+
+header {
+    background-color: darkseagreen;
+    color: grey;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.heading-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.logo{
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.highlighted-notice {
+    background-color: orange;
+    padding: 10px;
+    border: 5px solid yellow;
+    text-align: center;
+}
+
+.highlighted-notice a {
+    color: black;
+    text-decoration: underline;
+}
+
+.section {
+    background-color: white;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d\card {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.card__title {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card__title-link {
+    color: blue;
+    text-decoration: none;
+}
+
+.card__image {
+    margin-top: 10px;
+}
+
+.g-tumpul {
+    border-radius: 30px;
+}
+.card__list {
+    list-style: none;
+}
+
+.card__list-item {
+    margin-top: 5px;
+}
+
+.card__list-link {
+    color: blue;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: turquoise;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer__links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer__links a {
+    color: blue;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer__text {
+    margin-top: 10px;
+}
